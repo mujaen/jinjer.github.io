@@ -163,7 +163,10 @@ export default combineReducers({
 
 ## Conclusion
 
-서버를 실행해서 정상적으로 Counter 동작이 제대로 수행되는지 확인해 봅니다  
-오늘 포스팅에서는 React Redux로 저장소에서 특정 데이터의 상태를 조작해 보    
+서버를 실행해서 정상적으로 Counter 동작이 제대로 수행되는지 확인해 봅니다    
+오늘 포스팅에서는 React Redux로 저장소에서 특정 데이터의 상태를 조작해 보았는데요    
+React로 규모 있는 프로젝트를 하다 보면 너저분한 Props 관리를 위해서 Redux가 필요하게 되고    
+또 React Redux에서 'useDispatch'와 'useSelector'를 지원해 주므로 dispatch 선언이 이전보다 확연히       
+깔끔하게 정리되고 성능 면에서도 좋은 결과를 나타낸 것을 확인해 볼 수 있습니다.           
 
   
